@@ -145,7 +145,7 @@ public class Activity4_侧页 extends AppCompatActivity {
     }
 
     public void testOnClick(View v){
-        Toast.makeText(Activity4_侧页.this,"you just clicled settings",Toast.LENGTH_SHORT).show();
+        Toast.makeText(Activity4_侧页.this,"you just clicled the nav_head image",Toast.LENGTH_SHORT).show();
     }
 
     /**
