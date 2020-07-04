@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">demo3 中文屏幕旋转双页侧页多语言</string>
+    <string name="activity2_text">这是中文</string>
+</resources>

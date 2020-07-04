@@ -1,0 +1,15 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#00ff00"
+    android:padding="8dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="this is fragment2 "
+        android:id="@+id/activity3_fragment2_edittext"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

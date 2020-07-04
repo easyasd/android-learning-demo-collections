@@ -1,0 +1,20 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFB6C1"
+    android:padding="8dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="这是fragment1 输入内容 点击button 传参给fragmet2"
+        android:id="@+id/activity3_fragment1_edittext"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fragment1_button"
+        android:id="@+id/activity3_fragment1_button"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
