@@ -16,7 +16,7 @@ import java.util.UUID;
 
 public class ItemPagerActivity extends AppCompatActivity {
     private ViewPager mViewPager;
-    private List<Item>mItems;
+    private List<Item>mItems;  //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
