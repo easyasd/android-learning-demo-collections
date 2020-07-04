@@ -10,7 +10,7 @@ public class Activity1_屏幕旋转 extends AppCompatActivity {
     private EditText editText;
     private TextView textView;
     private String savekey="savekey";
-    private String saveinfo="";
+    private String saveinfo=""; //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
