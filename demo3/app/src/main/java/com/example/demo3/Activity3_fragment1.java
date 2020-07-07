@@ -13,9 +13,6 @@ import android.widget.EditText;
 
 import androidx.fragment.app.Fragment;
 
-import java.util.UUID;
-
-import javax.security.auth.callback.Callback;
 
 public class Activity3_fragment1 extends Fragment implements View.OnClickListener {
     private EditText editText;

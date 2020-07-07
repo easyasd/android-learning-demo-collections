@@ -11,6 +11,8 @@ public class Activity1_屏幕旋转 extends AppCompatActivity {
     private TextView textView;
     private String savekey="savekey";
     private String saveinfo=""; //
+    //如果是fragment旋转，要想完全保留fragment存活，在fragment的onCreate()内加上setRetainInstance(false);
+    //屏幕旋转还没写完，有一点应该考虑，旋转后是否更换布局。
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
