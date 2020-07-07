@@ -10,6 +10,7 @@ import android.os.Bundle;
 import java.util.UUID;
 
 public class ItemActivity extends SingleFragmentActivity {
+    @Override
     protected Fragment createFragment(){
         UUID itemid=(UUID)getIntent().getSerializableExtra("itemid");
         return ItemFragment.newInstance(itemid);

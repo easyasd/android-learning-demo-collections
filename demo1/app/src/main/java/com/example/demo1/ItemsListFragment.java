@@ -74,7 +74,6 @@ public class ItemsListFragment extends Fragment {
 
     }
 
-
     private class ItemAdapter extends RecyclerView.Adapter<ItemHolder>{
         private List<Item>mItems;
         public ItemAdapter(List<Item>items){
@@ -109,13 +108,5 @@ public class ItemsListFragment extends Fragment {
         mRecyclerView.setAdapter(mAdapter);}
         else {mAdapter.notifyDataSetChanged();}
     }
-
-    @Override
-    public  void onResume(){
-        super.onResume();
-        upDateUI();
-        Log.d("test","test1");
-    }
-
 
 }

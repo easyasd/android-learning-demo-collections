@@ -11,12 +11,6 @@ package="com.example.demo1">
     android:theme="@style/AppTheme">
     <activity android:name=".ItemPagerActivity"></activity>
     <activity android:name=".ItemActivity" />
-    <activity
-        android:name=".Activity2to1"
-        android:launchMode="singleTop" />
-    <activity
-        android:name=".Activity1to2"
-        android:launchMode="singleTop" />
     <activity android:name=".ItemsListActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
