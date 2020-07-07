@@ -64,4 +64,8 @@ public class BeatBox { //负责从assets找到资源，修改名字，加载音�
         mSoundPool.play(soundId,1.0f,1.0f,1,0,1.0f);
     }
 
+    public void release(){
+        mSoundPool.release();
+    }
+
 }

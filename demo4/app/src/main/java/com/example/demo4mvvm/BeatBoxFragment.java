@@ -37,6 +37,7 @@ public class BeatBoxFragment extends Fragment {
     @Override
     public void onCreate(Bundle saved){
         super.onCreate(saved);
+        setRetainInstance(true);
 
         mbeatbox=new BeatBox(getActivity());
     }
@@ -83,5 +84,11 @@ public class BeatBoxFragment extends Fragment {
         public int getItemCount() {
             return mSounds.size();
         }
+    }
+
+    @Override
+    public void onDestroy(){
+        super.onDestroy();
+        mbeatbox.release();
     }
 }

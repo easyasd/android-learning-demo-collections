@@ -22,4 +22,8 @@ public class SoundViewModel extends BaseObservable {//只管有关布局的事�
         msound=sound;
         notifyChange();//p331
     }
+
+    public void onButtonClicked() {
+        mbeatbox.play(msound);
+    }
 }
