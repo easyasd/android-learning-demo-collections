@@ -2,7 +2,7 @@ package com.example.demo4mvvm;
 
 import androidx.databinding.BaseObservable;
 
-public class SoundViewModel extends BaseObservable {
+public class SoundViewModel extends BaseObservable {//只管有关布局的事情
     private Sound msound;
     private BeatBox mbeatbox;
 
