@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Demo5 样式主题UI"
