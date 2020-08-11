@@ -8,3 +8,8 @@ in this repository, you will learn some simple android knowleged,glad this can h
 
 demo详情我会在csdn上面写博客的方式来说明，下面是我的csdn博客地址：
 https://me.csdn.net/qq_25754055 
+demo1 activity fragment recycler viewpager
+demo2 活动碎片 通信 
+demo3 屏幕旋转多语言双页侧页 
+demo4 mvvm assest 
+demo5 ui 样式
