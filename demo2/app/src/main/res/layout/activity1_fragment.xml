@@ -21,14 +21,4 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>  其他方法动态添加fragment-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/activity1_edittext"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/activity1_button"
-        android:text="activity1_to_fragment2"/>
-
 </androidx.appcompat.widget.LinearLayoutCompat>

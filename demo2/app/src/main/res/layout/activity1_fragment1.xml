@@ -15,23 +15,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/activity1_fragment1_edittext"/>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/activity1_fragment1_button1"
-        android:text="AC1fragment1_to_AC1frament"/>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/activity1_fragment1_button1"
+    android:text="fragment1_to_activity2"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/activity1_fragment1_button2"
-        android:text="AC1fragment1_to_AC2fragment"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/activity1_fragment1_button3"
-        android:text="fragment1_to_activity1"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/activity1_fragment1_button4"
-        android:text="fragment1_to_activity2"/>
+        android:text="碎片1->碎片2通信"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

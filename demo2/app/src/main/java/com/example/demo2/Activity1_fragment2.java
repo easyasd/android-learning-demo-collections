@@ -20,16 +20,5 @@ public class Activity1_fragment2 extends Fragment {
         editText=(EditText)v.findViewById(R.id.activity1_fragment2_Edittext2);
         return v;
     }
-    @Override
-    public void onResume(){
-        super.onResume();
-       // String ss=getArguments().getSerializable("key7").toString();
-       // uiupdata(ss);
-    }
-    void uiupdata(String ms){
-        editText.setText(ms);
-    }
-
-
 
 }
